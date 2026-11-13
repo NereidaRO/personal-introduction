@@ -1,10 +1,13 @@
+import { NavLink } from "react-router"
+
 function Header(){
     return(
         <>
-            <h2>I'm Header.tsx</h2>
-            <a href="./">to home</a>
-            <a href="./">to projects</a>
-            <a href="./">to certifications</a>
+           <nav>
+                <NavLink to="/" end>Home</NavLink>
+                <NavLink to="/certificados">Certifications</NavLink>
+                <NavLink to="/proyectos">Projects</NavLink>
+            </nav>
         </>
     )
 }

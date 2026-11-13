@@ -1,11 +1,9 @@
 function Footer(){
     return(
         <>
-            <h2>I'm Footer.tsx</h2>
-            <a href="./">to LinkedIn</a>
-            <a href="./">to GitHub</a>
-            <a href="./">phone</a>
-            <a href="./">email</a>
+            <a href="https://www.linkedin.com/in/nereida-rodriguez-orenes/">LinkedIn</a>
+            <a href="https://www.github.com/NereidaRO">GitHub</a>
+            <a href="mailto:nereidarodriguezorenes@gmail.com">email</a>
         </>
     )
 }
